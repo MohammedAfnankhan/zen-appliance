@@ -115,5 +115,9 @@ npm i
 npm run dev
 ```
 
-<img width="1907" height="827" alt="image" src="https://github.com/user-attachments/assets/4388c0d5-506b-4d57-bb1a-05d6de263a3e" />
+<img width="1905" height="955" alt="Screenshot 2026-09-23 142604" src="https://github.com/user-attachments/assets/daa16231-7e1e-454b-a0ce-c11399c002bd" />
+<img width="1915" height="872" alt="Screenshot 2026-09-23 142535" src="https://github.com/user-attachments/assets/5de4d7d6-0871-4365-b9ef-d44f9bdd59b8" />
+<img width="1620" height="959" alt="Screenshot 2026-09-23 142517" src="https://github.com/user-attachments/assets/1c09adab-83ec-4bd7-b7c1-3019e45fdc55" />
+<img width="1907" height="827" alt="Screenshot 2026-09-23 141951" src="https://github.com/user-attachments/assets/3679cdc6-6254-4f1a-bdbd-a34bd96524bc" />
+
 
