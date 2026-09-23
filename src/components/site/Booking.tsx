@@ -382,7 +382,9 @@ export function Booking({
                 <X className="h-5 w-5 text-muted-foreground" />
               </button>
             </div>
-            <h3 className="mt-3 text-xl font-extrabold text-ink">Booking Confirmed!</h3>
+            <h3 className="mt-3 text-xl font-extrabold text-ink">
+              Booking Confirmed! Redirecting to WhatsApp...
+            </h3>
             <p className="mt-1 text-sm text-muted-foreground">
               Reference ID:{" "}
               <span className="font-bold text-cyan">{success.ref}</span>
