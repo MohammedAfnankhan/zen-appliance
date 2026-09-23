@@ -1,9 +1,9 @@
 export const BUSINESS = {
   name: "RapidRepair Doorstep",
   owner: "Rehman",
-  phone: "7026657971",
-  phoneIntl: "+917026657971",
-  whatsapp: "917026657971",
+  phone: "9110626020",
+  phoneIntl: "+919110626020",
+  whatsapp: "919110626020",
   area: "Mysuru",
   hours: "8:00 AM – 9:00 PM (All days)",
 };
@@ -15,6 +15,9 @@ export const DEVELOPER = {
   whatsapp: "919110626020",
   email: "khanafnan52452@gmail.com",
 };
+
+export const SHEETS_WEBHOOK =
+  "https://script.google.com/macros/s/AKfycbz8QnqPF75le9efXv_i1IwjQaPWM_PvADWUUn_Z_n5T5u-M-7XhLQUaK5wRdhNkREun/exec";
 
 export type ApplianceKey = "ac" | "washing" | "cooler";
 
