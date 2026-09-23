@@ -114,14 +114,14 @@ cd <repository-name>
 npm i
 npm run dev
 ```
+---
 
 ## 📸 Application Screenshots
 
-![Hero & Services Section](https://github.com/user-attachments/assets/daa16231-7e1e-454b-a0ce-c11399c002bd)
+![App Overview - Hero Section](./Screenshot%202026-09-23%20142604.png)
 
-![Booking Form View](https://github.com/user-attachments/assets/5de4d7d6-0871-4365-b9ef-d44f9bdd59b8)
+![Services & Repair Selection](./Screenshot%202026-09-23%20142535.png)
 
-![Service Details Section](https://github.com/user-attachments/assets/1c09adab-83ec-4bd7-b7c1-3019e45fdc55)
+![Service Details & Pricing](./Screenshot%202026-09-23%20142517.png)
 
-![Mobile Interface View](https://github.com/user-attachments/assets/3679cdc6-6254-4f1a-bddd-a34bd96524bc)
-
+![Mobile Interface View](./Screenshot%202026-09-23%20141951.png)
