@@ -4,6 +4,7 @@ import {
   APPLIANCES,
   BUSINESS,
   MAX_PER_SLOT,
+  SHEETS_WEBHOOK,
   TIME_SLOTS,
   type ApplianceKey,
 } from "@/lib/business";
@@ -137,6 +138,24 @@ export function Booking({
     const updated = [...bookings, booking];
     setBookings(updated);
     localStorage.setItem(STORE_KEY, JSON.stringify(updated));
+
+    // Background sync to Google Sheets (non-blocking)
+    void fetch(SHEETS_WEBHOOK, {
+      method: "POST",
+      mode: "no-cors",
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify({
+        name: booking.name,
+        phone: booking.phone,
+        location: [booking.address, booking.landmark]
+          .filter(Boolean)
+          .join(", ")
+          .concat(coords ? ` (https://maps.google.com/?q=${coords.lat},${coords.lng})` : ""),
+        appliance: booking.appliance,
+        issue: allProblems.join(", "),
+        slot: `${booking.date} ${booking.slot}${booking.express ? " (Express +₹40)" : ""}`,
+      }),
+    }).catch(() => {});
 
     const msg =
       `*New Booking — ${BUSINESS.name}*\n` +
