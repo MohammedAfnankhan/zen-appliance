@@ -59,11 +59,30 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-cyan: var(--cyan);
+  --color-cyan-foreground: var(--cyan-foreground);
+  --color-amber: var(--amber);
+  --color-amber-foreground: var(--amber-foreground);
+  --color-ink: var(--ink);
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
+  --radius: 0.875rem;
+  --brand: oklch(0.424 0.199 265.6);
+  --brand-foreground: oklch(0.99 0 0);
+  --cyan: oklch(0.715 0.143 215.2);
+  --cyan-foreground: oklch(0.18 0.04 265);
+  --amber: oklch(0.782 0.157 70.08);
+  --amber-foreground: oklch(0.22 0.05 60);
+  --ink: oklch(0.208 0.042 265.755);
+  --gradient-hero: linear-gradient(145deg, oklch(0.208 0.042 265.755), oklch(0.33 0.14 264));
+  --gradient-cyan: linear-gradient(120deg, var(--cyan), oklch(0.62 0.16 240));
+  --shadow-soft: 0 12px 34px -16px oklch(0.208 0.042 265.755 / 0.35);
+  --shadow-lift: 0 22px 50px -22px oklch(0.208 0.042 265.755 / 0.45);
+  --background: oklch(0.985 0 0);
   --foreground: oklch(0.129 0.042 264.695);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
